@@ -1,0 +1,33 @@
+[html]
+<div id="impress">
+
+<div class="step hola" id="one" data-rotate-y="90" data-rotate="90" data-x="-7440" data-y="440" data-scale="20">Hola</div>
+
+<div class="step este" id="two" data-rotate="90" data-x="7340" data-y="3740" data-scale="8">ESTE ES EL <span class="big poder">PODER</span> DE . . .</div>
+
+<div class="step impress" id="three" data-x="7640" data-y="1740" data-scale="0.1">IMPRESS.<span class="gold">JS</span></div>
+
+<div class="step excelente" id="four" data-rotate-y="90" data-x="440" data-y="1440" data-scale="6">buen<span class="o">o</span><span class="q">?</span></div>
+
+<div class="step descubrilo" id="five" data-x="1440" data-y="-140" data-scale="10">DESCUBRILO!</div>
+
+<div class="step chau" id="six" data-rotate-x="90" data-rotate="90" data-x="-7440" data-y="9440" data-scale="20">Chau</div>
+
+</div>
+
+<div class="hint">
+Usa las flechas del teclado para navegar</div>
+<script type="text/javascript">
+if ("ontouchstart" in document.documentElement) {
+document.querySelector(".hint").innerHTML = "
+Utiliza las flechas
+";
+}
+
+</script>
+<script type="text/javascript" src="impress.js"></script>
+<script type="text/javascript">
+impress().init();
+</script>
+
+[/html]
